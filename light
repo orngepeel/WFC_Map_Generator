@@ -1,0 +1,8 @@
+	glLightModelfv( GL_LIGHT_MODEL_AMBIENT, MulArray3( .3f, White ) );
+	glLightModeli ( GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE );
+	glLightfv( GL_LIGHT0, GL_AMBIENT,   Array3( 0., 0., 0. ) );
+	glLightfv( GL_LIGHT0, GL_DIFFUSE,   White );
+	glLightfv( GL_LIGHT0, GL_SPECULAR,  White );
+	glLightf ( GL_LIGHT0, GL_CONSTANT_ATTENUATION, 1. );
+	glLightf ( GL_LIGHT0, GL_LINEAR_ATTENUATION, 0. );
+	glLightf ( GL_LIGHT0, GL_QUADRATIC_ATTENUATION, 0. );
